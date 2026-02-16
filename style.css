@@ -1,0 +1,39 @@
+/* Global */
+.app-container{padding:18px 18px 40px 18px;}
+.app-title{font-weight:900;letter-spacing:-0.02em;margin:0;}
+.app-subtitle{color:rgba(255,255,255,.75);margin-top:.35rem;}
+
+/* Cards / panels */
+.control-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);}
+.panel-card{background:#111827;border:1px solid rgba(255,255,255,.08);}
+.status-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);}
+
+.status-title{color:rgba(255,255,255,.75);font-size:.85rem;font-weight:700;}
+.status-value{font-size:1.25rem;font-weight:900;}
+.status-sub{color:rgba(255,255,255,.7);font-size:.9rem;margin-top:.25rem;}
+
+.metric-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);height:100%;}
+.card-title{color:rgba(255,255,255,.75);font-size:.85rem;font-weight:700;}
+.card-value{font-size:1.45rem;font-weight:900;margin-top:.15rem;}
+.card-subtitle{color:rgba(255,255,255,.7);font-size:.85rem;margin-top:.15rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+
+.section-header{background:rgba(255,255,255,.03);border-bottom:1px solid rgba(255,255,255,.08);font-weight:800;}
+.section-title{font-weight:900;margin:0 0 .75rem 0;}
+.faq-text{color:rgba(255,255,255,.85);line-height:1.35;}
+
+/* Dropdown styling (react-select) */
+.metric-dropdown .Select-control{background-color:#0b1220;border:1px solid rgba(255,255,255,.12);}
+.metric-dropdown .Select-value-label{color:#e5e7eb !important;}
+.metric-dropdown .Select-placeholder{color:rgba(229,231,235,.75) !important;}
+.metric-dropdown .Select-input>input{color:#e5e7eb !important;}
+
+.metric-dropdown .Select-menu-outer{background-color:#111827;border:1px solid rgba(255,255,255,.12);}
+.metric-dropdown .VirtualizedSelectOption{background-color:#111827;color:#e5e7eb;}
+.metric-dropdown .VirtualizedSelectFocusedOption{background-color:#1f2937;color:#ffffff;}
+.metric-dropdown .Select-arrow-zone{color:#e5e7eb;}
+
+/* Accordion */
+.accordion-item{background:#0b1220;border:1px solid rgba(255,255,255,.10);}
+.accordion-button{background:#0b1220;color:#e5e7eb;font-weight:800;}
+.accordion-button:not(.collapsed){background:#111827;color:#ffffff;}
+.accordion-body{background:#111827;}
