@@ -1,0 +1,16 @@
+.app-title{font-weight:800;letter-spacing:-0.02em;margin:0;}
+.app-subtitle{color:rgba(255,255,255,.75);margin-top:.3rem;}
+.controls-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);}
+.control-label{color:rgba(255,255,255,.75);font-weight:600;margin-bottom:.25rem;}
+.viz-card{background:#111827;border:1px solid rgba(255,255,255,.08);}
+.status-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);}
+.status-title{color:rgba(255,255,255,.75);font-size:.85rem;font-weight:600;}
+.status-value{font-size:1.25rem;font-weight:800;}
+.status-subtitle{color:rgba(255,255,255,.7);font-size:.85rem;margin-top:.25rem;}
+.kpi-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);height:100%;}
+.kpi-title{color:rgba(255,255,255,.75);font-size:.85rem;font-weight:600;}
+.kpi-value{font-size:1.35rem;font-weight:900;margin-top:.2rem;}
+.kpi-subtitle{color:rgba(255,255,255,.7);font-size:.85rem;margin-top:.15rem;}
+.footer-note{color:rgba(255,255,255,.6);font-size:.85rem;margin-top:1rem;margin-bottom:2rem;}
+
+.status-running{margin-left:.75rem;color:#fbbf24;font-size:1rem;font-weight:800;}
